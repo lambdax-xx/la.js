@@ -265,7 +265,7 @@ function t(matrix) {
 	return tm;
 }
 
-// Gets the cofactors of element (i, j) of a matrix. 
+// Gets the cofactor matrix of element (i, j) of a matrix. 
 function cof(matrix, i, j) {
 	var m = Array.from(matrix);
 	m.splice(i, 1);
